@@ -81,7 +81,7 @@ Spark bağımlılıkları indirmek için Maven Central deposunu kullanır ancak 
 
 ``config('spark.jars.repositories', 'https\://artifacts.unidata.ucar.edu/repository/unidata-all')``
 
- **Yapılandırmamız ileSpark oturumumuzu oluşturursak:**
+ **Yapılandırmamız ile Spark oturumumuzu oluşturursak:**
 
 ```
 from sedona.spark import *
@@ -99,6 +99,8 @@ config = SedonaContext.builder(). \
 **Apache Sedona’yı mevcut spark oturumuna entegre etmek için:**
 
 `sedona = SedonaContext.create(config)`
+
+Spark oturumu oluşturup Sedona'yı entegre ettikten sonra kullanmaya artık hazırız.
 
  
 
