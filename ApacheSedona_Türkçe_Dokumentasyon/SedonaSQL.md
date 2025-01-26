@@ -359,8 +359,8 @@ nokta = 'POINT(3 3)'
 ```
 Oluşturduğumuz geometrilerin görüntüsü aşağıdaki gibi olmaktadır:
 
+![Apache_Sedona_Predicates_Example_1](./gorseller/ApacheSedona_Predicates_1.png)
 
-Görsel x.x
 
 Temel topolojik operasyonlar bu örnek geometriler üzerinden anlatılacak.
 
@@ -384,7 +384,7 @@ cont_cokgen_cizgi.show()
 |false|
 +-----+
 ```
-Görsel x.x ‘de görüldüğü gibi çizgi geometrimizin çokgen geometrisinin dışında kalan kısımları olduğu için sonucumuz False döndü.
+Görselde görüldüğü gibi çizgi geometrimizin çokgen geometrisinin dışında kalan kısımları olduğu için sonucumuz False döndü.
 
 Nokta geometrimiz için de incelersek:
 ```
@@ -691,7 +691,7 @@ map.save_to_html(file_name="ornek_map1.html")#HTML olarak kaydettik.
 
 Çıktımız:
 
-
+![Apache_Sedona_Kepler_Example_1](./gorseller/SedonaKepler_1.png)
 
 Turuncu renktekiler B ismi ile belirttiğimiz geo_merkez’in Geometri kolonu ve mavi noktalar ise A ismi ile belirttiğimiz geo_merkez’in Merkez kolonudur.
 
