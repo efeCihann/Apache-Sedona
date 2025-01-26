@@ -530,6 +530,7 @@ r.show()
 ```
 Çıktı:
 
+![Apache_Sedona_PyDeck_Example_1](./gorseller/SedonaPyDeck_1.png)
 
 ```
 create_choropleth_map()
@@ -567,10 +568,7 @@ r.show()
 
 Çıktı:
 
-
-
-
-
+![Apache_Sedona_PyDeck_Example_2](./gorseller/SedonaPyDeck_2.png)
 
 
 
@@ -615,7 +613,7 @@ r.show()
 ```
 Çıktı:
 
-
+![Apache_Sedona_PyDeck_Example_3](./gorseller/SedonaPyDeck_3.png)
 
 ```
 create_heatmap()
